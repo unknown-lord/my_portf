@@ -1,0 +1,30 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple outline of Delhi region -->
+  <path d="M400 150C450 170 500 180 550 200C600 220 650 250 680 300C710 350 730 400 740 450C750 500 750 550 730 600C710 650 680 690 640 720C600 750 550 770 500 780C450 790 400 790 350 780C300 770 250 750 210 720C170 690 140 650 120 600C100 550 90 500 100 450C110 400 130 350 160 300C190 250 230 220 280 200C330 180 350 170 400 150Z" fill="#E5E5E5" stroke="#CCCCCC" stroke-width="2"/>
+  
+  <!-- Main roads/highways -->
+  <path d="M250 300C300 350 350 400 400 450C450 500 500 550 550 600" stroke="#AAAAAA" stroke-width="3"/>
+  <path d="M200 400C300 420 400 430 500 450C600 470 650 500 700 550" stroke="#AAAAAA" stroke-width="3"/>
+  <path d="M400 200C420 300 430 400 450 500C470 600 500 650 550 700" stroke="#AAAAAA" stroke-width="3"/>
+  <path d="M300 250C350 300 400 350 450 400C500 450 550 500 600 550" stroke="#AAAAAA" stroke-width="3"/>
+  
+  <!-- River Yamuna -->
+  <path d="M500 200C480 250 470 300 460 350C450 400 440 450 430 500C420 550 410 600 400 650" stroke="#CCCCCC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- City center marker -->
+  <circle cx="400" cy="400" r="10" fill="#AAAAAA"/>
+  
+  <!-- Surrounding areas/districts -->
+  <circle cx="300" cy="300" r="5" fill="#CCCCCC"/>
+  <circle cx="500" cy="300" r="5" fill="#CCCCCC"/>
+  <circle cx="300" cy="500" r="5" fill="#CCCCCC"/>
+  <circle cx="500" cy="500" r="5" fill="#CCCCCC"/>
+  <circle cx="350" cy="250" r="5" fill="#CCCCCC"/>
+  <circle cx="450" cy="250" r="5" fill="#CCCCCC"/>
+  <circle cx="250" cy="350" r="5" fill="#CCCCCC"/>
+  <circle cx="250" cy="450" r="5" fill="#CCCCCC"/>
+  <circle cx="550" cy="350" r="5" fill="#CCCCCC"/>
+  <circle cx="550" cy="450" r="5" fill="#CCCCCC"/>
+  <circle cx="350" cy="550" r="5" fill="#CCCCCC"/>
+  <circle cx="450" cy="550" r="5" fill="#CCCCCC"/>
+</svg>

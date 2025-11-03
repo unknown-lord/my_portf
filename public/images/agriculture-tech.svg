@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a4de02;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#76ba1b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="leaf-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c4ff4d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8fd629;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg-gradient)" />
+  
+  <!-- Soil -->
+  <path d="M0,500 C100,480 200,520 300,490 C400,460 500,510 600,480 C700,450 800,490 800,500 L800,600 L0,600 Z" fill="#3d2817" />
+  
+  <!-- Plant stem -->
+  <path d="M400,500 C400,400 390,350 400,300" stroke="#75b424" stroke-width="8" fill="none" />
+  
+  <!-- Plant leaves -->
+  <path d="M400,400 C450,380 480,350 470,320 C460,290 430,280 400,300" fill="url(#leaf-gradient)" />
+  <path d="M400,350 C350,330 320,300 330,270 C340,240 370,230 400,250" fill="url(#leaf-gradient)" />
+  
+  <!-- Tech circuit overlay -->
+  <g opacity="0.7">
+    <!-- World map outline -->
+    <path d="M300,200 C350,180 400,190 450,200 C500,210 550,200 600,220 C550,240 500,230 450,240 C400,250 350,240 300,200 Z" stroke="#ffffff" stroke-width="2" fill="none" />
+    
+    <!-- Circuit lines -->
+    <path d="M450,200 L650,150 M500,210 L700,220 M400,190 L250,150 M350,180 L200,220" stroke="#ffffff" stroke-width="2" />
+    
+    <!-- Circuit nodes -->
+    <circle cx="450" cy="200" r="5" fill="#ffffff" />
+    <circle cx="500" cy="210" r="5" fill="#ffffff" />
+    <circle cx="400" cy="190" r="5" fill="#ffffff" />
+    <circle cx="350" cy="180" r="5" fill="#ffffff" />
+    <circle cx="650" cy="150" r="8" fill="#ffffff" />
+    <circle cx="700" cy="220" r="8" fill="#ffffff" />
+    <circle cx="250" cy="150" r="8" fill="#ffffff" />
+    <circle cx="200" cy="220" r="8" fill="#ffffff" />
+    
+    <!-- Tech icons -->
+    <g transform="translate(650,150)">
+      <rect x="-15" y="-15" width="30" height="30" rx="5" fill="#ffffff" />
+      <path d="M-8,-8 L8,8 M-8,8 L8,-8" stroke="#76ba1b" stroke-width="3" />
+    </g>
+    
+    <g transform="translate(700,220)">
+      <rect x="-15" y="-15" width="30" height="30" rx="5" fill="#ffffff" />
+      <circle cx="0" cy="0" r="8" fill="#76ba1b" />
+    </g>
+    
+    <g transform="translate(250,150)">
+      <rect x="-15" y="-15" width="30" height="30" rx="5" fill="#ffffff" />
+      <path d="M-8,0 L8,0 M0,-8 L0,8" stroke="#76ba1b" stroke-width="3" />
+    </g>
+    
+    <g transform="translate(200,220)">
+      <rect x="-15" y="-15" width="30" height="30" rx="5" fill="#ffffff" />
+      <path d="M-8,-8 L8,-8 L8,8 L-8,8 Z" stroke="#76ba1b" stroke-width="3" fill="none" />
+    </g>
+  </g>
+  
+  <!-- Circular tech interface around plant -->
+  <g fill="none" stroke="#ffffff" opacity="0.8">
+    <circle cx="400" cy="300" r="120" stroke-width="1" />
+    <circle cx="400" cy="300" r="150" stroke-width="1" stroke-dasharray="5,5" />
+    <circle cx="400" cy="300" r="180" stroke-width="2" />
+    
+    <!-- Interface elements -->
+    <path d="M400,120 L400,140 M400,460 L400,480 M220,300 L240,300 M560,300 L580,300" stroke-width="2" />
+    <path d="M280,180 A180,180 0 0,1 520,180" stroke-width="2" />
+    <path d="M280,420 A180,180 0 0,0 520,420" stroke-width="2" />
+  </g>
+</svg>

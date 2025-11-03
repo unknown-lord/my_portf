@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
+
+This is a [Next.js](https://nextjs.org) portfolio website project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -19,6 +21,26 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Contact Form Setup
+
+The contact form is configured to send emails to: `priyanshu.intern24@gmail.com`
+
+To enable actual email sending functionality, follow these steps:
+
+1. Install the Nodemailer package:
+   ```bash
+   npm install nodemailer
+   ```
+
+2. Create a `.env.local` file in the project root with your email credentials:
+   ```
+   EMAIL_USER=your-email@gmail.com
+   EMAIL_PASS=your-app-password
+   ```
+   Note: For Gmail, you'll need to use an App Password instead of your regular password. [Learn how to create an App Password](https://support.google.com/accounts/answer/185833).
+
+3. Uncomment the email sending code in `app/api/contact/route.ts`
 
 ## Learn More
 
