@@ -130,6 +130,7 @@ const ContactForm = () => {
         <Button 
           type="submit" 
           variant="primary" 
+          loading={isSubmitting}
           disabled={isSubmitting}
         >
           {isSubmitting ? 'Sending...' : 'Send'}
