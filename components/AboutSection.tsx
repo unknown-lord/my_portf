@@ -16,7 +16,7 @@ const AboutSection = () => {
             
             <div className="space-y-4">
               <p>
-                I'm a web developer with over 1+ years of experience building web applications and digital products. I specialize in creating responsive, accessible, and performant web experiences using modern technologies.
+                I&apos;m a web developer with over 1+ years of experience building web applications and digital products. I specialize in creating responsive, accessible, and performant web experiences using modern technologies.
               </p>
               
               <p>
@@ -24,7 +24,7 @@ const AboutSection = () => {
               </p>
               
               <p>
-                When I'm not coding, you can find me exploring new technologies, creating videos, designing graphics, and capturing nature through photography.
+                When I&apos;m not coding, you can find me exploring new technologies, creating videos, designing graphics, and capturing nature through photography.
               </p>
             </div>
             

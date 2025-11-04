@@ -8,12 +8,12 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1 space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-              Hi, I'm Priyanshu.<br />
+              Hi, I&apos;m Priyanshu.<br />
               Full Stack Developer
             </h1>
             
             <p className="text-lg text-gray-500 max-w-2xl">
-              Developer by skill, creator by heart—Let’s build something amazing!
+              Developer by skill, creator by heart—Let&apos;s build something amazing!
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">
@@ -42,9 +42,9 @@ const HeroSection = () => {
               <Image 
                 src="/images/dp.jpeg" 
                 alt="Priyanshu's Profile" 
-                width={600}
-                height={600}
-                className="object-cover"
+                width={400}
+                height={400}
+                className="object-cover w-full h-full"
                 priority
               />
             </div>
