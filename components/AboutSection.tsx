@@ -20,7 +20,7 @@ const AboutSection = () => {
               </p>
               
               <p>
-                My journey in web development began when I built my first web game at 17. Since then, I’ve worked with startups, freelanced, and collaborated with diverse teams to deliver high-quality, real-world solutions. I was also among the Top 20 selected teams from my college for SIH. Beyond coding, I have a strong graphic design background, having created 1000+ designs and logos for brands, conferences, and startups.
+                My journey in web development began when I built my first web game at 17. Since then, I&apos;ve worked with startups, freelanced, and collaborated with diverse teams to deliver high-quality, real-world solutions. I was also among the Top 20 selected teams from my college for SIH. Beyond coding, I have a strong graphic design background, having created 1000+ designs and logos for brands, conferences, and startups.
               </p>
               
               <p>
